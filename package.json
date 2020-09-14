@@ -41,7 +41,8 @@
     ]
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "react-pdf": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
@@ -66,6 +67,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.20.3",
     "eslint-plugin-standard": "^4.0.1",
+    "file-loader": "^6.1.0",
     "jest": "^26.4.2",
     "nodemon": "^2.0.4",
     "npm-run-all": "^4.1.5",
