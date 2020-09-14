@@ -2,10 +2,13 @@
     font-family: 'Fira Mono', monospace;
 }
 
+.app-container {
+    display: block;
+}
+
 .header-container {
     width: 100vw;
     display: flex;
-    position: fixed;
     justify-content: space-between;
     padding: -0.75rem, 0.5rem, 0rem, 0.5rem;
 }
@@ -34,6 +37,36 @@
 
 .nav-bar a:hover {
     text-decoration: underline;
+}
+
+.social-bar {
+    align-content: right;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-left: -0.7rem;
+}
+
+.social-bar a {
+    text-decoration: none;
+    color: black;
+    padding-top: 1rem;
+    font-size: small;
+}
+
+.social-bar a:hover {
+    text-decoration: underline;
+}
+
+.home-body {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+}
+
+.text-box {
+    width: 92.5vw;
+    height: 50vh;
 }
 
 .footer {
