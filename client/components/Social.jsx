@@ -6,7 +6,7 @@ class Social extends React.Component {
       <>
         <div className="social-bar">
           <a href="#">GitHub</a>
-          <a href="#">ln</a>
+          <a href="#">in</a>
           <a href="#">email</a>
         </div>
       </>

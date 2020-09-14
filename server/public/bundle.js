@@ -523,7 +523,7 @@ var Social = /*#__PURE__*/function (_React$Component) {
         href: "#"
       }, "GitHub"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "#"
-      }, "ln"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+      }, "in"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "#"
       }, "email")));
     }
