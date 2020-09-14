@@ -12,6 +12,10 @@ module.exports = {
       test: /\.jsx?$/,
       loader: 'babel-loader',
       exclude: /node_modules/
+    },
+    {
+      test: /\.(jpe?g|png|gif|svg|pdf)$/i,
+      loader: 'file-loader?name=/public/[name].[ext]'
     }]
   },
   resolve: {

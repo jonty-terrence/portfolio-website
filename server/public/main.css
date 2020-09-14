@@ -1,0 +1,83 @@
+* {
+    font-family: 'Fira Mono', monospace;
+}
+
+.app-container {
+    display: block;
+}
+
+.header-container {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: -0.75rem, 0.5rem, 0rem, 0.5rem;
+}
+
+.name-tag-container {
+    padding-left: 0.75rem;
+}
+
+.name-heading {
+    font-size: 3rem;
+}
+
+.nav-bar {
+    margin: 2.5rem;
+    padding-right: 0.75rem;
+    display: inline-flex;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-evenly;
+    padding-left: 0.4rem;
+    font-size: large;
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.social-bar {
+    align-content: right;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-left: -0.7rem;
+}
+
+.social-bar a {
+    text-decoration: none;
+    color: black;
+    padding-top: 1rem;
+    font-size: small;
+}
+
+.social-bar a:hover {
+    text-decoration: underline;
+}
+
+.home-body {
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+}
+
+.text-box {
+    width: 92.5vw;
+    height: 50vh;
+}
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
