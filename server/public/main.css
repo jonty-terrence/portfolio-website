@@ -1,0 +1,33 @@
+* {
+    font-family: 'Fira Mono', monospace;
+}
+
+.header-container {
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    padding: -0.75rem, 0.5rem, 0rem, 0.5rem;
+}
+
+.name-tag-container {
+    padding-left: 0.75rem;
+}
+
+.name-heading {
+    font-size: 3rem;
+}
+
+.nav-bar {
+    margin: 2.5rem;
+    padding-right: 0.75rem;
+    display: inline-flex;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-evenly;
+    padding-left: 0.4rem;
+    font-size: large;
+}
