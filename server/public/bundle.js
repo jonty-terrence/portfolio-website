@@ -393,11 +393,11 @@ var Intro = /*#__PURE__*/function (_React$Component) {
         className: "intro-box"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "int-1"
-      }, "hey there, I'm a software developer", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), " living and working in Auckland New Zealand \u2013 thanks ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "for dropping by."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, "Hey there, I'm a software developer living and working in ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), " Auckland New Zealand \u2013 thanks for dropping by."), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "int-2"
-      }, "I'm currently seeking opportunities ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "to work with and learn from people creating software", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "that has a positive impact, and delivers information and", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "experiences in accessible ways"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+      }, "I'm currently seeking opportunities to work with and learn ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "from people creating software that has a positive impact, and delivers ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "information and experiences in accessible ways"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "int-3"
-      }, "If you have a project that sounds like this, ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "please get in touch with me! Feel free to check out my ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "CV and work, too."));
+      }, "If you have a project that sounds like this, please get in ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "touch with me! Feel free to check out my CV and work, too."));
     }
   }]);
 
@@ -459,9 +459,9 @@ var NameTag = /*#__PURE__*/function (_React$Component) {
         className: "name-tag-container"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h1", {
         className: "name-heading"
-      }, "Jonty Terrence ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "Buchan"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
+      }, "Jonty Buchan"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("h2", {
         className: "job-title"
-      }, "Full Stack Web Developer"));
+      }, "Developer"));
     }
   }]);
 

@@ -1,5 +1,15 @@
+@font-face {
+    font-family: 'Theinhardt';
+    src: url('Theinhardt-Regular.woff2') format('woff2'),
+        url('Theinhardt-Regular.woff') format('woff'),
+        url('Theinhardt-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 * {
-    font-family: 'Fira Mono', monospace;
+    font-family: 'Theinhardt', sans-serif;
 }
 
 .app-container {
@@ -18,7 +28,18 @@
 }
 
 .name-heading {
-    font-size: 3rem;
+    font-size: 4.8rem;
+    margin-bottom: -20px;
+    margin-top: 0.2rem;
+    font-weight: normal;
+    letter-spacing: -0.2rem;
+}
+
+.job-title {
+    font-size: 4.8rem;
+    margin-top: 0;
+    font-weight: 200;
+    letter-spacing: -0.2rem;
 }
 
 .nav-bar {
@@ -77,19 +98,20 @@
 .int-1 {
     text-indent: 5rem;
     font-size: 1.5rem;
-    margin-left: 20rem;
+    margin-left: 25rem;
+    letter-spacing: 0.001em;
 }
 
 .int-2 {
     text-indent: 5rem;
     font-size: 1.5rem;
-    margin-left: 20rem;
+    margin-left: 25rem;
 }
 
 .int-3 {
     text-indent: 5rem;
     font-size: 1.5rem;
-    margin-left: 20rem;
+    margin-left: 25rem;
 }
 
 
