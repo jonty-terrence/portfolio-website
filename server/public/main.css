@@ -93,28 +93,29 @@
 
 .text-box p {
     padding: 0, 1rem, 2rem, 2rem;
+    line-height:  2.5rem;
 }
 
 .int-1 {
-    text-indent: 5rem;
-    font-size: 1.5rem;
+    text-indent: 6rem;
+    font-size: 1.9rem;
     margin-left: 25rem;
-    letter-spacing: 0.001em;
+    letter-spacing: -0.0001rem;
 }
 
 .int-2 {
-    text-indent: 5rem;
-    font-size: 1.5rem;
+    text-indent: 6rem;
+    font-size: 1.9rem;
     margin-left: 25rem;
+    letter-spacing: -0.0001rem;
 }
 
 .int-3 {
-    text-indent: 5rem;
-    font-size: 1.5rem;
+    text-indent: 6rem;
+    font-size: 1.9rem;
     margin-left: 25rem;
+    letter-spacing: -0.0001vw;
 }
-
-
 
 .footer {
     position: fixed;
