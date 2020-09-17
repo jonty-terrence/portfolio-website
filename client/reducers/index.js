@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux'
 
-import menuSelector from './menuSelector'
+import choice from './choice'
 
 export default combineReducers({
-  menuSelector
+  choice
 })
