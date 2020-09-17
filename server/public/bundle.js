@@ -86,6 +86,27 @@
 /************************************************************************/
 /******/ ({
 
+/***/ "./client/actions/index.js":
+/*!*********************************!*\
+  !*** ./client/actions/index.js ***!
+  \*********************************/
+/*! exports provided: MENU_CHOICE, menuOption */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "MENU_CHOICE", function() { return MENU_CHOICE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "menuOption", function() { return menuOption; });
+var MENU_CHOICE = 'MENU_CHOICE';
+var menuOption = function menuOption(choice) {
+  return {
+    type: 'MENU_CHOICE',
+    choice: choice
+  };
+};
+
+/***/ }),
+
 /***/ "./client/components/App.jsx":
 /*!***********************************!*\
   !*** ./client/components/App.jsx ***!
@@ -331,7 +352,7 @@ var HomeBody = /*#__PURE__*/function (_React$Component) {
         className: "home-body"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "text-box"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_7__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Social__WEBPACK_IMPORTED_MODULE_6__["default"], null));
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Social__WEBPACK_IMPORTED_MODULE_6__["default"], null));
     }
   }]);
 
@@ -495,7 +516,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _server_public_jonty_cv_2020_pdf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../server/public/jonty-cv-2020.pdf */ "./server/public/jonty-cv-2020.pdf");
+/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
+/* harmony import */ var _server_public_jonty_cv_2020_pdf__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../server/public/jonty-cv-2020.pdf */ "./server/public/jonty-cv-2020.pdf");
+/* harmony import */ var _actions__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../actions */ "./client/actions/index.js");
 
 
 
@@ -508,6 +531,13 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 
+
+
+
+function handleClick(choice, dispatch) {
+  console.log(choice);
+  dispatch(Object(_actions__WEBPACK_IMPORTED_MODULE_8__["menuOption"])(choice));
+}
 
 var Nav = /*#__PURE__*/function (_React$Component) {
   _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2___default()(Nav, _React$Component);
@@ -523,16 +553,21 @@ var Nav = /*#__PURE__*/function (_React$Component) {
   _babel_runtime_helpers_createClass__WEBPACK_IMPORTED_MODULE_1___default()(Nav, [{
     key: "render",
     value: function render() {
+      var _this = this;
+
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_5___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("nav", {
         className: "nav-bar"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
         href: "#"
       }, "Projects,"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: _server_public_jonty_cv_2020_pdf__WEBPACK_IMPORTED_MODULE_6__["default"],
+        href: _server_public_jonty_cv_2020_pdf__WEBPACK_IMPORTED_MODULE_7__["default"],
         target: "_blank",
         rel: "noopener noreferrer"
       }, "Resume,"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "#"
+        href: "#",
+        onClick: function onClick(e) {
+          return handleClick('about', _this.props.dispatch);
+        }
       }, "About")));
     }
   }]);
@@ -540,7 +575,13 @@ var Nav = /*#__PURE__*/function (_React$Component) {
   return Nav;
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
-/* harmony default export */ __webpack_exports__["default"] = (Nav);
+var mapStateToProps = function mapStateToProps(state) {
+  return {
+    choice: state.choice
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_6__["connect"])(mapStateToProps)(Nav));
 
 /***/ }),
 
@@ -715,8 +756,39 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! redux */ "./node_modules/redux/es/redux.js");
+/* harmony import */ var _menuSelector__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./menuSelector */ "./client/reducers/menuSelector.js");
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])({}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Object(redux__WEBPACK_IMPORTED_MODULE_0__["combineReducers"])({
+  menuSelector: _menuSelector__WEBPACK_IMPORTED_MODULE_1__["default"]
+}));
+
+/***/ }),
+
+/***/ "./client/reducers/menuSelector.js":
+/*!*****************************************!*\
+  !*** ./client/reducers/menuSelector.js ***!
+  \*****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return menuChoice; });
+/* harmony import */ var _actions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../actions */ "./client/actions/index.js");
+
+function menuChoice() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
+  var action = arguments.length > 1 ? arguments[1] : undefined;
+
+  switch (action.type) {
+    case _actions__WEBPACK_IMPORTED_MODULE_1__["MENU_CHOICE"]:
+      return action.choice;
+
+    default:
+      return state;
+  }
+}
 
 /***/ }),
 

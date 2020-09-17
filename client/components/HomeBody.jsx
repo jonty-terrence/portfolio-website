@@ -8,7 +8,7 @@ class HomeBody extends React.Component {
     return (
       <div className="home-body">
         <div className="text-box">
-          <Intro />
+          {/* <Intro /> */}
         </div>
         <Social />
       </div>
