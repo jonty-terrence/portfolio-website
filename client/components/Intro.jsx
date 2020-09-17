@@ -1,5 +1,7 @@
 import React from 'react'
 
+import ProPic from './ProPic'
+
 class Intro extends React.Component {
   render () {
     return (
@@ -17,6 +19,7 @@ class Intro extends React.Component {
               If you have a project that sounds <br></br>like this, please get in touch with me! <br></br>Feel free
               to check out my CV and work, too.
         </p>
+        <ProPic />
       </div>
     )
   }

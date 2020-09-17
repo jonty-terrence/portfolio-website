@@ -14,6 +14,7 @@
 
 .app-container {
     display: block;
+    height: 100%;
 }
 
 .header-container {
@@ -100,21 +101,28 @@
     text-indent: 6rem;
     font-size: 1.9rem;
     margin-left: 26vw;
-    letter-spacing: -0.0001rem;
+    letter-spacing: -0.05rem;
 }
 
 .int-2 {
     text-indent: 6rem;
     font-size: 1.9rem;
     margin-left: 26vw;
-    letter-spacing: -0.0001rem;
+    letter-spacing: -0.05rem;
 }
 
 .int-3 {
     text-indent: 6rem;
     font-size: 1.9rem;
     margin-left: 26vw;
-    letter-spacing: -0.0001vw;
+    letter-spacing: -0.05rem;
+}
+
+.profile-pic {
+    width: 30vw;
+    margin-left: 62vw;
+    margin-bottom: 20vh;
+    margin-top: -5vh;
 }
 
 .footer {
