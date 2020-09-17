@@ -5,9 +5,9 @@ class Social extends React.Component {
     return (
       <>
         <div className="social-bar">
-          <a href="#">GitHub</a>
-          <a href="#">in</a>
-          <a href="#">email</a>
+          <a href="https://github.com/jonty-terrence">GitHub</a>
+          <a href="https://nz.linkedin.com/in/jonty-buchan">in</a>
+          <a href="mailto:jontyterrence@gmail.com">email</a>
         </div>
       </>
     )
