@@ -161,8 +161,10 @@ var App = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "page-container"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "app-container"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_HomeBody__WEBPACK_IMPORTED_MODULE_8__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_6__["default"], null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_HomeBody__WEBPACK_IMPORTED_MODULE_8__["default"], null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Footer__WEBPACK_IMPORTED_MODULE_7__["default"], null));
     }
   }]);
 
@@ -340,6 +342,8 @@ function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Re
 
 
 var displayedComponent = '';
+var renderedComponent = '';
+var shownClass = '';
 
 var HomeBody = /*#__PURE__*/function (_React$Component) {
   _babel_runtime_helpers_inherits__WEBPACK_IMPORTED_MODULE_2___default()(HomeBody, _React$Component);
@@ -357,17 +361,23 @@ var HomeBody = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       if (this.props.choice === 'about') {
         displayedComponent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Intro__WEBPACK_IMPORTED_MODULE_8__["default"], null);
+        renderedComponent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Social__WEBPACK_IMPORTED_MODULE_7__["default"], null);
+        shownClass = 'text-box';
       } else if (this.props.choice === 'projects') {
         displayedComponent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Projects__WEBPACK_IMPORTED_MODULE_10__["default"], null);
+        renderedComponent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null);
+        shownClass = 'text-box';
       } else {
         displayedComponent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Work__WEBPACK_IMPORTED_MODULE_9__["default"], null);
+        renderedComponent = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", null);
+        shownClass = 'work-container';
       }
 
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "home-body"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "text-box"
-      }, displayedComponent), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement(_Social__WEBPACK_IMPORTED_MODULE_7__["default"], null));
+        className: shownClass
+      }, displayedComponent), renderedComponent);
     }
   }]);
 
@@ -858,6 +868,18 @@ var Work = /*#__PURE__*/function (_React$Component) {
         className: "content"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Kiwi Roadies"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "box box-3"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "content"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Meta Data Checker"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "box box-4"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "content"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "rtmr"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "box box-5"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "content"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Kiwi Roadies"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "box box-6"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "content"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", null, "Meta Data Checker"))));

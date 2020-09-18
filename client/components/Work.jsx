@@ -21,6 +21,23 @@ class Work extends React.Component {
             <p>Meta Data Checker</p>
           </div>
         </div>
+        <div className="box box-4">
+          <div className="content">
+            <p>rtmr</p>
+          </div>
+        </div>
+
+        <div className="box box-5">
+          <div className="content">
+            <p>Kiwi Roadies</p>
+          </div>
+        </div>
+
+        <div className="box box-6">
+          <div className="content">
+            <p>Meta Data Checker</p>
+          </div>
+        </div>
       </div>
     )
   }

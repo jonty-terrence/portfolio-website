@@ -7,10 +7,12 @@ import HomeBody from './HomeBody'
 class App extends React.Component {
   render () {
     return (
+      <div className="page-container">
       <div className="app-container">
         <Header />
         <HomeBody />
-        <Footer />
+      </div>
+      <Footer />
       </div>
     )
   }
