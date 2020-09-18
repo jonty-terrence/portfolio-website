@@ -4,7 +4,6 @@ import { connect } from 'react-redux'
 import Social from './Social'
 import Intro from './Intro'
 import Work from './Work'
-import Projects from './Projects'
 
 let displayedComponent = ''
 let renderedComponent = ''
@@ -12,18 +11,14 @@ let shownClass = ''
 
 class HomeBody extends React.Component {
   render () {
-    if (this.props.choice === 'about') {
-      displayedComponent = <Intro />
-      renderedComponent = <Social />
-      shownClass = 'text-box'
-    } else if (this.props.choice === 'projects') {
-      displayedComponent = <Projects />
-      renderedComponent = <div></div>
-      shownClass = 'text-box'
-    } else {
+    if (this.props.choice === 'projects') {
       displayedComponent = <Work />
       renderedComponent = <div></div>
       shownClass = 'work-container'
+    } else {
+      displayedComponent = <Intro />
+      renderedComponent = <Social />
+      shownClass = 'text-box'
     }
     return (
       <div className="home-body">

@@ -43,6 +43,11 @@
     letter-spacing: -0.2rem;
 }
 
+.name-tag-container a {
+    text-decoration: none;
+    color: black;
+}
+
 .job-title {
     font-size: 5.5rem;
     margin-top: 0;
