@@ -1,7 +1,7 @@
 {
-  "name": "react-project-boilerplate",
+  "name": "portfolio-website",
   "version": "1.0.0",
-  "description": "A simple boilerplate for react projects",
+  "description": "A place to showcase my work as a web developer",
   "main": "index.js",
   "author": "Jonty Buchan",
   "license": "MIT",
