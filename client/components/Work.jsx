@@ -45,8 +45,8 @@ class Work extends React.Component {
         <div className="box box-4">
           <div className="content">
             <p className="work-title">
-              Calculator <br></br>
-              <span className="details"><a href="https://github.com/jonty-terrence/calculator">Details</a></span>
+            Personal Website <br></br>
+              <span className="details"><a href="https://github.com/jonty-terrence/portfolio-website">Details</a></span>
             </p>
             <p className="work-details">
             Solo Project <br></br>
@@ -58,8 +58,8 @@ class Work extends React.Component {
         <div className="box box-5">
           <div className="content">
             <p className="work-title">
-              Minesweeper <br></br>
-              <span className="details"><a href="https://github.com/jonty-terrence/minesweeper">Details</a></span>
+              Calculator <br></br>
+              <span className="details"><a href="https://github.com/jonty-terrence/calculator">Details</a></span>
             </p>
             <p className="work-details">
             Solo Project <br></br>
