@@ -16,7 +16,6 @@ class Nav extends React.Component {
         <nav className="nav-bar">
           <a href="#"onClick={e => handleClick('projects', this.props.dispatch)}>Projects,</a>
           <a href={Pdf} target="_blank" rel='noopener noreferrer'>Resume,</a>
-          <a href="#" onClick={e => handleClick('about', this.props.dispatch)}>About</a>
         </nav>
       </>
     )
