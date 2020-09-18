@@ -180,8 +180,6 @@
    }
 } 
   
-
-
   
   .box .content {
     margin: 10px;
@@ -189,6 +187,23 @@
     min-height: 100px;
     box-sizing: border-box;
     text-align: left;
+  }
+
+  .work-title {
+      font-size: 2.5vh;
+      margin-top: -4%;
+  }
+
+  .details a {
+      font-size: 2vh;
+      text-decoration: none;
+      color: black;
+  }
+
+  .work-details {
+      text-align: left;
+      margin-top: 40%;
+      font-size: 1.8vh;
   }
 
 .footer {
@@ -201,4 +216,5 @@
     display: inline-flex;
     justify-content: space-evenly;
     height: 2.5rem; 
+    background-color: white;
 }
