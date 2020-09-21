@@ -2,6 +2,7 @@ import React from 'react'
 import { connect } from 'react-redux'
 
 import Pdf from '../../server/public/jonty-cv-2020.pdf'
+
 import { menuOption } from '../actions'
 
 function handleClick (choice, dispatch) {

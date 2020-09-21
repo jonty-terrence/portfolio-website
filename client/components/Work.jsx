@@ -1,5 +1,7 @@
 import React from 'react'
 
+import eBook from '../../server/public/airbnb-e-book.pdf'
+
 class Work extends React.Component {
   render () {
     return (
@@ -72,7 +74,7 @@ class Work extends React.Component {
           <div className="content">
             <p className="work-title">
               Content Sample <br></br>
-              <span className="details"><a href="#">Details</a></span>
+              <span className="details"><a href={eBook} target="_blank" rel='noopener noreferrer'>Details</a></span>
             </p>
             <p className="work-details">
             Solo Project <br></br>

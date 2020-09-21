@@ -28,6 +28,7 @@
     display: flex;
     justify-content: space-between;
     padding: -0.75rem, 0.5rem, 0rem, 0.5rem;
+    position: fixed;
 }
 
 .name-tag-container {
@@ -41,6 +42,7 @@
     margin-top: 0.2rem;
     font-weight: normal;
     letter-spacing: -0.2rem;
+    mix-blend-mode: difference;
 }
 
 .name-tag-container a {
@@ -96,6 +98,7 @@
     width: 100vw;
     height: 70vh;
     display: flex;
+    padding-top: 30vh;
 }
 
 .text-box {
@@ -134,7 +137,7 @@
     width: 30vw;
     margin-left: 62vw;
     margin-bottom: 20vh;
-    margin-top: -5vh;
+    margin-top: -3vh;
 }
 
 .wrapper {
