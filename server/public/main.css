@@ -138,6 +138,7 @@
     margin-left: 62vw;
     margin-bottom: 20vh;
     margin-top: -3vh;
+    
 }
 
 .wrapper {
@@ -226,3 +227,141 @@
     height: 2.5rem; 
     background-color: white;
 }
+
+@media (max-width: 380px) {
+    .social-bar {
+        display: none;
+    }
+}
+
+@media (max-width:320px)  { 
+    .header-container {
+        position: relative;
+    } 
+
+    .name-heading {
+        font-size: 3rem;
+    }
+
+    .job-title {
+        font-size: 3rem;
+    }
+
+    .nav-bar {
+        display: grid;
+    }
+
+    .home-body {
+        padding-top: 8vh;
+    }
+
+    .text-box p {
+        font-size: 0.75rem;
+        line-height: 1.5rem;
+        margin-left: 7vw;
+        text-indent: 0;
+        letter-spacing: 0rem;
+    }
+
+    .profile-pic {
+        width: 60vw;
+        margin-left: 42vw;
+        margin-bottom: 20vh;
+        margin-top: 1vh;
+    }
+
+    .social-bar {
+        margin-left: -1.5rem;
+    }
+
+    .footer p {
+        font-size: 0.75rem;
+    }
+}
+
+@media (max-width:481px)  {
+    .header-container {
+        position: relative;
+    } 
+
+    .name-heading {
+        font-size: 3rem;
+    }
+
+    .job-title {
+        font-size: 3rem;
+    }
+
+    .nav-bar {
+        display: grid;
+    }
+
+    .home-body {
+        padding-top: 8vh;
+    }
+
+    .text-box p {
+        font-size: 0.75rem;
+        line-height: 2rem;
+        margin-left: 18vw;
+        text-indent: 0;
+        letter-spacing: 0rem;
+    }
+
+    .profile-pic {
+        width: 60vw;
+        margin-left: 42vw;
+        margin-bottom: 20vh;
+        margin-top: 1vh;
+    }
+
+    .social-bar {
+        margin-left: -1.5rem;
+    }
+
+    .footer p {
+        font-size: 0.75rem;
+    }
+}
+@media (max-width:641px)  { 
+    .header-container {
+        position: relative;
+    } 
+    .name-heading {
+        font-size: 4rem;
+    }
+
+    .job-title {
+        font-size: 4rem;
+    }
+
+    .home-body {
+        padding-top: 5vh;
+    }
+
+    .text-box p {
+        font-size: 1.5rem;
+        margin-left: 18vw;
+    }
+
+    .profile-pic {
+        width: 50vw;
+        margin-left: 42vw;
+        margin-bottom: 20vh;
+        margin-top: 1vh;
+    }
+ }
+@media (max-width:961px)  { 
+    .header-container {
+        position: relative;
+    } 
+
+    .home-body {
+        padding-top: 10vh;
+    }
+
+    .profile-pic {
+    width: 40vw;
+    margin-left: 52vw;
+    }
+ }
