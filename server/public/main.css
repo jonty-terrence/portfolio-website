@@ -42,7 +42,6 @@
     margin-top: 0.2rem;
     font-weight: normal;
     letter-spacing: -0.2rem;
-    mix-blend-mode: difference;
 }
 
 .name-tag-container a {
@@ -240,11 +239,11 @@
     } 
 
     .name-heading {
-        font-size: 3rem;
+        font-size: 30px;
     }
 
     .job-title {
-        font-size: 3rem;
+        font-size: 30px;
     }
 
     .nav-bar {
@@ -258,7 +257,7 @@
     .text-box p {
         font-size: 0.75rem;
         line-height: 1.5rem;
-        margin-left: 7vw;
+        margin-left: 5vw;
         text-indent: 0;
         letter-spacing: 0rem;
     }
@@ -303,7 +302,7 @@
     .text-box p {
         font-size: 0.75rem;
         line-height: 2rem;
-        margin-left: 18vw;
+        margin-left: 5vw;
         text-indent: 0;
         letter-spacing: 0rem;
     }
@@ -316,7 +315,7 @@
     }
 
     .social-bar {
-        margin-left: -1.5rem;
+        display: none;
     }
 
     .footer p {
@@ -328,11 +327,11 @@
         position: relative;
     } 
     .name-heading {
-        font-size: 4rem;
+        font-size: 50px;
     }
 
     .job-title {
-        font-size: 4rem;
+        font-size: 50px;
     }
 
     .home-body {
@@ -341,7 +340,7 @@
 
     .text-box p {
         font-size: 1.5rem;
-        margin-left: 18vw;
+        margin-left: 5vw;
     }
 
     .profile-pic {
