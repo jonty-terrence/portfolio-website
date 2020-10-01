@@ -169,6 +169,7 @@
     width: 0;
     height: 0;
     animation-fill-mode: forwards;
+    pointer-events: none
   }
 
   .box::before {
