@@ -60,12 +60,12 @@ class Work extends React.Component {
         <div className="box box-5">
           <div className="content">
             <p className="work-title">
-              Calculator <br></br>
-              <span className="details"><a href="https://github.com/jonty-terrence/calculator">Details</a></span>
+              Landing Page Design and Content Creation <br></br>
+              <span className="details"><a href="https://www2.thewebco.co.nz/seo-plans">Details</a></span>
             </p>
             <p className="work-details">
             Solo Project <br></br>
-              2020
+              2019
             </p>
           </div>
         </div>

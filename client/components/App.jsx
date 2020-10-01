@@ -8,11 +8,11 @@ class App extends React.Component {
   render () {
     return (
       <div className="page-container">
-      <div className="app-container">
-        <Header />
-        <HomeBody />
-      </div>
-      <Footer />
+        <div className="app-container">
+          <Header />
+          <HomeBody />
+        </div>
+        <Footer />
       </div>
     )
   }
