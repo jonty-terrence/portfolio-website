@@ -186,6 +186,15 @@
     animation: 4s border 2s 0 forwards;
   }
 
+  .wrapper:hover .content {
+    filter: opacity(0.25);
+    transition: filter 0.5s ease-in-out;
+  }
+
+  .wrapper .content:hover {
+    filter: opacity(1); 
+  }
+
   @keyframes border {
     0% {
       width: 0;
