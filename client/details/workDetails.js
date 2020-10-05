@@ -42,13 +42,4 @@ export default [{
   year: 2019,
   repo: null,
   url: 'https://www2.thewebco.co.nz/seo-plans'
-},
-{
-  id: 6,
-  projectTitle: 'Content Sample',
-  projectType: 'Solo Project',
-  summary: 'An Airbnb hosting guide e-book that I designed and wrote the content for.',
-  year: 2019,
-  repo: null,
-  url: '{eBook}'
 }]

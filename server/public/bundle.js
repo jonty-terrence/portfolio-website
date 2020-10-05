@@ -805,11 +805,28 @@ var Work = /*#__PURE__*/function (_React$Component) {
         }, detail.projectTitle, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
           className: "details"
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-          href: detail.url
+          href: detail.url,
+          target: "_blank",
+          rel: "noopener noreferrer"
         }, "Details"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
           className: "work-details"
         }, detail.projectType, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), detail.year)));
-      }));
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "box",
+        key: "6"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "content"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "work-title"
+      }, "Content Sample ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+        className: "details"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+        href: _server_public_airbnb_e_book_pdf__WEBPACK_IMPORTED_MODULE_6__["default"],
+        target: "_blank",
+        rel: "noopener noreferrer"
+      }, "Details"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+        className: "work-details"
+      }, "Solo Project", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "2020"))));
     }
   }]);
 
@@ -869,14 +886,6 @@ __webpack_require__.r(__webpack_exports__);
   year: 2019,
   repo: null,
   url: 'https://www2.thewebco.co.nz/seo-plans'
-}, {
-  id: 6,
-  projectTitle: 'Content Sample',
-  projectType: 'Solo Project',
-  summary: 'An Airbnb hosting guide e-book that I designed and wrote the content for.',
-  year: 2019,
-  repo: null,
-  url: '{eBook}'
 }]);
 
 /***/ }),
