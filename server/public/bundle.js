@@ -763,6 +763,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _server_public_airbnb_e_book_pdf__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../server/public/airbnb-e-book.pdf */ "./server/public/airbnb-e-book.pdf");
+/* harmony import */ var _client_details_workDetails__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../client/details/workDetails */ "./client/details/workDetails.js");
 
 
 
@@ -772,6 +773,7 @@ __webpack_require__.r(__webpack_exports__);
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = _babel_runtime_helpers_getPrototypeOf__WEBPACK_IMPORTED_MODULE_4___default()(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return _babel_runtime_helpers_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_3___default()(this, result); }; }
 
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Date.prototype.toString.call(Reflect.construct(Date, [], function () {})); return true; } catch (e) { return false; } }
+
 
 
 
@@ -792,68 +794,26 @@ var Work = /*#__PURE__*/function (_React$Component) {
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "wrapper"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "box box-1"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "content"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "work-title"
-      }, "rtmr ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        className: "details"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "https://github.com/jonty-terrence/rtmr"
-      }, "Details"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "work-details"
-      }, "Solo Project ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "2020"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "box box-2"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "content"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "work-title"
-      }, "Kiwi Roadies ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        className: "details"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "https://github.com/jonty-terrence/Kiwi-Roadies"
-      }, "Details"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "work-details"
-      }, "Group Project ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "2020"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "box box-3"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "content"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "work-title"
-      }, "Meta Data Checker ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        className: "details"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "https://github.com/jonty-terrence/meta-data-checker"
-      }, "Details"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "work-details"
-      }, "Solo Project ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "2020"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "box box-4"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "content"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "work-title"
-      }, "Personal Website ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        className: "details"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "https://github.com/jonty-terrence/portfolio-website"
-      }, "Details"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "work-details"
-      }, "Solo Project ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "2020"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "box box-5"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "content"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "work-title"
-      }, "Landing Page Design and Content Creation ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
-        className: "details"
-      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
-        href: "https://www2.thewebco.co.nz/seo-plans"
-      }, "Details"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
-        className: "work-details"
-      }, "Solo Project ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "2019"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
-        className: "box box-6"
+      }, _client_details_workDetails__WEBPACK_IMPORTED_MODULE_7__["default"].map(function (detail) {
+        return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+          className: "box",
+          key: detail.id
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+          className: "content"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+          className: "work-title"
+        }, detail.projectTitle, " ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("span", {
+          className: "details"
+        }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("a", {
+          href: detail.url,
+          target: "_blank",
+          rel: "noopener noreferrer"
+        }, "Details"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
+          className: "work-details"
+        }, detail.projectType, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), detail.year)));
+      }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+        className: "box",
+        key: "6"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         className: "content"
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
@@ -866,7 +826,7 @@ var Work = /*#__PURE__*/function (_React$Component) {
         rel: "noopener noreferrer"
       }, "Details"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("p", {
         className: "work-details"
-      }, "Solo Project ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "2019"))));
+      }, "Solo Project", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("br", null), "2020"))));
     }
   }]);
 
@@ -874,6 +834,59 @@ var Work = /*#__PURE__*/function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_5___default.a.Component);
 
 /* harmony default export */ __webpack_exports__["default"] = (Work);
+
+/***/ }),
+
+/***/ "./client/details/workDetails.js":
+/*!***************************************!*\
+  !*** ./client/details/workDetails.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony default export */ __webpack_exports__["default"] = ([{
+  id: 1,
+  projectTitle: 'rtmr',
+  projectType: 'Solo Project',
+  summary: 'Built using React, RTMR is a web app that displays the location of - and information about - businesses in Auckland that pay their staff a living wage',
+  year: 2020,
+  repo: 'https://github.com/jonty-terrence/rtmr',
+  url: null
+}, {
+  id: 2,
+  projectTitle: 'Kiwi Roadies',
+  projectType: 'Group Project',
+  summary: 'Final EDA project developing a road trip generator within a team setting.',
+  year: 2020,
+  repo: 'https://github.com/jonty-terrence/Kiwi-Roadies',
+  url: 'https://kiwiroadies.herokuapp.com/'
+}, {
+  id: 3,
+  projectTitle: 'Meta Data Checker',
+  projectType: 'Solo Project',
+  summary: 'The Meta Data Checker is a place to write optimised meta titles and descriptions. Displaying entered information in the same way a user may see it in Googles search results pages, it allows for testing and visualising the appearance of web pages.',
+  year: 2020,
+  repo: 'https://github.com/jonty-terrence/meta-data-checker',
+  url: 'https://metadatachecker.herokuapp.com/'
+}, {
+  id: 4,
+  projectTitle: 'Personal Website',
+  projectType: 'Solo Project',
+  summary: 'This is my personal portfolio website, for past projects and my CV, built using React and deployed to Heroku.',
+  year: 2020,
+  repo: 'https://github.com/jonty-terrence/portfolio-website',
+  url: 'https://jonty-terrence.herokuapp.com/'
+}, {
+  id: 5,
+  projectTitle: 'Landing Page Design and Content Creation',
+  projectType: 'Solo Project',
+  summary: 'A landing page  for a digital agency&apos;s SEO services. I designed and developed the page, and created the content, in order to engage visitors to the website.',
+  year: 2019,
+  repo: null,
+  url: 'https://www2.thewebco.co.nz/seo-plans'
+}]);
 
 /***/ }),
 
